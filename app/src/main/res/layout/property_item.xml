@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#33C7CCE6">
+
+    <LinearLayout
+        android:layout_width="668px"
+        android:layout_height="214px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26px"
+        android:background="#000"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26px"
+            android:layout_marginTop="26px">
+
+            <ImageView
+                android:id="@+id/pi_money_image"
+                android:layout_width="49px"
+                android:layout_height="49px"
+                android:src="@mipmap/btc" />
+
+            <TextView
+                android:id="@+id/pi_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17px"
+                android:text="BTC"
+                android:textColor="#FFFFFFFF"
+                android:textSize="35px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26px"
+            android:layout_marginTop="33px">
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="可用"
+                android:textColor="#FFFFFFFF"
+                android:textSize="21px" />
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="冻结"
+                android:textColor="#FFFFFFFF"
+                android:textSize="21px" />
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="折合(CNY)"
+                android:textColor="#FFFFFFFF"
+                android:textSize="21px" />
+            />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26px"
+            android:layout_marginTop="3px">
+
+            <TextView
+                android:id="@+id/pi_available"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="10.12345678"
+                android:textColor="#FFFFFFFF"
+                android:textSize="21px" />
+
+            <TextView
+                android:id="@+id/pi_freeze"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0.12345678"
+                android:textColor="#FFFFFFFF"
+                android:textSize="21px" />
+
+            <TextView
+                android:id="@+id/pi_convert_into"
+                android:layout_width="0px"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="512，345.68"
+                android:textColor="#FFFFFFFF"
+                android:textSize="21px" />
+            />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

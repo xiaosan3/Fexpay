@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4DFFFFFF"
+    android:orientation="vertical"
+    tools:context="com.blackpai.otc.fexpay.ui.login.LoginActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="33px" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/l_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/l_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="30px"
+            android:text="注册"
+            android:textColor="#7A98F7" />
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="579px"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="130px"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/l_phone"
+                android:layout_width="match_parent"
+                android:layout_height="87px"
+                android:background="@drawable/buy_btc_edittext"
+                android:hint="请输入手机号" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="#FFB6B6B6" />
+
+            <EditText
+                android:id="@+id/l_pass"
+                android:layout_width="match_parent"
+                android:layout_height="87px"
+                android:background="@drawable/buy_btc_edittext"
+                android:hint="请输入密码" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="583px"
+            android:layout_height="87px"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="395px"
+            android:hint="极验" />
+
+        <Button
+            android:id="@+id/l_login"
+            android:layout_width="579px"
+            android:layout_height="83px"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="499px"
+            android:background="#FF7A98F7"
+            android:text="登录"
+            android:textColor="#FFFFFFFF" />
+
+        <TextView
+            android:id="@+id/l_forget_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="600px"
+            android:text="忘记密码？"
+            android:textColor="#FF3B68BB"
+            android:textSize="24px" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView4"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/textView4"
+            android:layout_marginTop="31px"
+            android:text="登录"
+            android:textColor="#4A4A4A"
+            android:textSize="42px" />
+    </RelativeLayout>
+</LinearLayout>

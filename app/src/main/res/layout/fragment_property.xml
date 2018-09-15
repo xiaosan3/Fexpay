@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.fragments.property.PropertyFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/tool_bar"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="33px" />
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/p_code"
+                android:layout_width="42px"
+                android:layout_height="42px"
+                android:layout_marginLeft="23px"
+                android:background="@mipmap/qr_code" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="资产"
+                android:textColor="#FFFFFF"
+                android:textSize="30px" />
+
+            <ImageView
+                android:id="@+id/p_screen"
+                android:layout_width="42px"
+                android:layout_height="42px"
+                android:layout_gravity="right"
+                android:layout_marginRight="23px"
+                android:background="@drawable/ic_launcher" />
+
+        </android.support.v7.widget.Toolbar>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/p_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

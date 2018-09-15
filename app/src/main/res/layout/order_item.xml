@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="205px"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="195px">
+
+        <ImageView
+            android:layout_width="64px"
+            android:layout_height="64px"
+            android:layout_marginLeft="35px"
+            android:layout_marginTop="35px"
+            android:background="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="278px"
+            android:layout_height="37px"
+            android:layout_marginLeft="122px"
+            android:layout_marginTop="33px"
+            android:text="HangWei"
+            android:textColor="#FF3B68BB"
+            android:textSize="26px" />
+
+        <TextView
+            android:layout_width="188px"
+            android:layout_height="30px"
+            android:layout_marginLeft="497px"
+            android:layout_marginTop="37px"
+            android:gravity="right"
+            android:text="买入 BTC"
+            android:textColor="#FF000000"
+            android:textSize="21px" />
+
+        <TextView
+            android:layout_width="386px"
+            android:layout_height="35px"
+            android:layout_marginLeft="122px"
+            android:layout_marginTop="71px"
+            android:text="对方已确认收到您的付款…"
+            android:textColor="#FF000000"
+            android:textSize="24px" />
+
+        <TextView
+            android:layout_width="320px"
+            android:layout_height="35px"
+            android:layout_marginLeft="365px"
+            android:layout_marginTop="71px"
+            android:gravity="right"
+            android:text="5,000.00 CNY"
+            android:textColor="#FF000000"
+            android:textSize="24px" />
+
+        <TextView
+            android:layout_width="188px"
+            android:layout_height="30px"
+            android:layout_marginLeft="35px"
+            android:layout_marginTop="150px"
+            android:text="2018/08/08"
+            android:textColor="#FF9B9B9B"
+            android:textSize="21px" />
+
+        <TextView
+            android:layout_width="139px"
+            android:layout_height="30px"
+            android:layout_marginLeft="546px"
+            android:layout_marginTop="150px"
+            android:gravity="right"
+            android:text="已完成"
+            android:textColor="#FF489972"
+            android:textSize="21px" />
+
+        <View
+            android:layout_width="650px"
+            android:layout_height="3px"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="132px"
+            android:background="#DEECE8E8" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10px"
+        android:background="#4DC7CCE6" />
+</LinearLayout>

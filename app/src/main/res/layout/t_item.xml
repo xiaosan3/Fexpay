@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/tbi_image"
+        android:layout_width="42px"
+        android:layout_height="42px"
+        android:layout_marginLeft="35px"
+        android:layout_marginTop="26px"
+        android:background="@mipmap/ic_launcher" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="97px"
+        android:layout_marginTop="28px"
+        android:text="haige"
+        android:textColor="#3B68BB"
+        android:textSize="26px" />
+
+    <TextView
+        android:id="@+id/tbi_praise"
+        android:layout_width="313px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="372px"
+        android:layout_marginTop="31px"
+        android:gravity="right"
+        android:text="成交 12345 成功率 98%"
+        android:textColor="#091254"
+        android:textSize="21px" />
+
+    <View
+        android:layout_width="650px"
+        android:layout_height="4px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="35px"
+        android:layout_marginTop="85px"
+        android:background="#ECE8E8" />
+
+    <TextView
+        android:id="@+id/tbi_price"
+        android:layout_width="435px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35px"
+        android:layout_marginTop="108px"
+        android:text="54,123.00 CNY"
+        android:textColor="#000000"
+        android:textSize="35px" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="35px"
+        android:layout_marginTop="113px"
+        android:gravity="right">
+
+        <ImageView
+            android:id="@+id/tbi_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="17px"
+            android:background="@mipmap/card"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/tbi_weichat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="17px"
+            android:background="@mipmap/weichat"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/tbi_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/pay"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tbi_norm"
+        android:layout_width="504px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35px"
+        android:layout_marginTop="167px"
+        android:text="限额 1,000.00-500,000.00 CNY"
+        android:textColor="#4A4A4A"
+        android:textSize="23px" />
+
+
+    <TextView
+        android:id="@+id/tbi_number"
+        android:layout_width="504px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35px"
+        android:layout_marginTop="198px"
+        android:text="数量 10.12345678 BTC"
+        android:textColor="#4A4A4A"
+        android:textSize="23px" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/linearLayout2"
+        android:layout_alignRight="@+id/linearLayout2"
+        android:layout_alignTop="@+id/tbi_norm"
+        android:background="@mipmap/icon_right" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="9px"
+        android:layout_marginTop="261px"
+        android:background="#C7CCE6" />
+</RelativeLayout>

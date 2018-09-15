@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.blackpai.otc.fexpay.ui.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/mian_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"></FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <RadioGroup
+            android:id="@+id/rg_all"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:background="#FFFFFF"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/transaction"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:checked="true"
+                android:drawableTop="@drawable/transaction_image"
+                android:gravity="center"
+                android:text="交易"
+                android:textColor="@drawable/buttom_text" />
+
+            <RadioButton
+                android:id="@+id/order"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/order_image"
+                android:gravity="center"
+                android:text="订单"
+                android:textColor="@drawable/buttom_text" />
+
+            <RadioButton
+                android:id="@+id/property"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/property_image"
+                android:gravity="center"
+                android:text="资产"
+                android:textColor="@drawable/buttom_text" />
+
+            <RadioButton
+                android:id="@+id/my"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:drawableTop="@drawable/my_image"
+                android:gravity="center"
+                android:text="我的"
+                android:textColor="@drawable/buttom_text" />
+        </RadioGroup>
+    </LinearLayout>
+</LinearLayout>

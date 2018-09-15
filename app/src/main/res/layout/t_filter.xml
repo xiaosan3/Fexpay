@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="489px"
+    android:background="#ffffff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35px"
+        android:layout_marginTop="31px"
+        android:text="支付方式"
+        android:textColor="#000000"
+        android:textSize="24px" />
+
+    <Button
+        android:layout_width="157px"
+        android:layout_height="52px"
+        android:layout_marginLeft="35px"
+        android:layout_marginTop="110px"
+        android:background="@drawable/mode_of_payment_color_gradual_change"
+        android:text="全部"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:layout_width="31px"
+        android:layout_height="31px"
+        android:layout_marginLeft="230px"
+        android:layout_marginTop="120px"
+        android:background="@mipmap/card" />
+
+    <ImageView
+        android:layout_width="31px"
+        android:layout_height="31px"
+        android:layout_marginLeft="390px"
+        android:layout_marginTop="120px"
+        android:background="@mipmap/pay" />
+
+    <ImageView
+        android:layout_width="31px"
+        android:layout_height="31px"
+        android:layout_marginLeft="550px"
+        android:layout_marginTop="120px"
+        android:background="@mipmap/weichat" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="271px"
+        android:layout_marginTop="118px"
+        android:text="银行卡"
+        android:textColor="#4A4A4A"
+        android:textSize="24px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="431px"
+        android:layout_marginTop="118px"
+        android:text="支付宝"
+        android:textColor="#4A4A4A"
+        android:textSize="24px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="591px"
+        android:layout_marginTop="118px"
+        android:text="微信"
+        android:textColor="#4A4A4A"
+        android:textSize="24px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35px"
+        android:layout_marginTop="210px"
+        android:text="限额"
+        android:textColor="#000000"
+        android:textSize="24px" />
+
+    <EditText
+        android:layout_width="650px"
+        android:layout_height="70px"
+        android:layout_marginLeft="35px"
+        android:layout_marginTop="263px"
+        android:background="@drawable/buy_btc_edittext" />
+
+    <Button
+        android:layout_width="318px"
+        android:layout_height="70px"
+        android:layout_marginLeft="35px"
+        android:layout_marginTop="384px"
+        android:background="@drawable/resetting_stroke"
+        android:text="重置"
+        android:textColor="#7A98F7" />
+
+    <Button
+        android:layout_width="318px"
+        android:layout_height="70px"
+        android:layout_marginLeft="367px"
+        android:layout_marginTop="384px"
+        android:background="#7A98F7"
+        android:text="全部"
+        android:textColor="#ffffff" />
+</RelativeLayout>

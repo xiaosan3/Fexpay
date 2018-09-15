@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4DFFFFFF"
+    android:orientation="vertical"
+    tools:context="com.blackpai.otc.fexpay.ui.register.RegisterActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="33px" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/r_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/r_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="30px"
+            android:text="登录"
+            android:textColor="#7A98F7" />
+    </android.support.v7.widget.Toolbar>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="70px"
+            android:layout_marginTop="31px"
+            android:text="注册"
+            android:textColor="#4A4A4A"
+            android:textSize="42px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="513px"
+            android:layout_marginTop="42px"
+            android:text="邮箱"
+            android:textColor="#7A98F7"
+            android:textSize="24px" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="602px"
+            android:layout_marginTop="42px"
+            android:text="手机"
+            android:textColor="#4A4A4A"
+            android:textSize="24px" />
+
+        <EditText
+            android:layout_width="583px"
+            android:layout_height="70px"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="224px"
+            android:background="@drawable/buy_btc_edittext"
+            android:hint="China" />
+
+        <EditText
+            android:layout_width="583px"
+            android:layout_height="70px"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="318px"
+            android:background="@drawable/buy_btc_edittext"
+            android:hint="邮箱" />
+
+        <EditText
+            android:layout_width="583px"
+            android:layout_height="70px"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="412px"
+            android:background="@drawable/buy_btc_edittext"
+            android:hint="密码" />
+
+        <EditText
+            android:layout_width="583px"
+            android:layout_height="70px"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="506px"
+            android:background="@drawable/buy_btc_edittext"
+            android:hint="确认密码" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="583px"
+            android:layout_height="70px"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/buy_btc_edittext"
+            android:hint="用户名" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="240px"
+            android:layout_marginTop="663px">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.6"
+                android:scaleY="0.6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我已阅读并同意"
+                android:textColor="#4A4A4A"
+                android:textSize="21px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="《用户协议》"
+                android:textColor="#7A98F7"
+                android:textSize="21px" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="579px"
+            android:layout_height="83px"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="710px"
+            android:text="下一步" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="70px"
+            android:layout_marginTop="31px"
+            android:text="注册"
+            android:textColor="#4A4A4A"
+            android:textSize="42px" />
+
+        <EditText
+            android:id="@+id/r_phone"
+            android:layout_width="583px"
+            android:layout_height="70px"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="130px"
+            android:background="@drawable/buy_btc_edittext"
+            android:hint="+86 | 手机" />
+
+        <LinearLayout
+            android:layout_width="583px"
+            android:layout_height="70px"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="224px">
+
+            <EditText
+                android:id="@+id/r_code"
+                android:layout_width="346px"
+                android:layout_height="match_parent"
+                android:background="@drawable/buy_btc_edittext"
+                android:hint="手机验证码" />
+
+            <Button
+                android:id="@+id/r_send_code"
+                android:layout_width="235px"
+                android:layout_height="match_parent"
+                android:background="#7A98F7"
+                android:text="发送验证码" />
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/r_pass"
+            android:layout_width="583px"
+            android:layout_height="70px"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="318px"
+            android:background="@drawable/buy_btc_edittext"
+            android:hint="密码" />
+
+        <EditText
+            android:id="@+id/r_ok_pass"
+            android:layout_width="583px"
+            android:layout_height="70px"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="412px"
+            android:background="@drawable/buy_btc_edittext"
+            android:hint="确认密码" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="240px"
+            android:layout_marginTop="569px">
+
+            <CheckBox
+                android:id="@+id/r_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleX="0.6"
+                android:scaleY="0.6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我已阅读并同意"
+                android:textColor="#4A4A4A"
+                android:textSize="21px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="《用户协议》"
+                android:textColor="#7A98F7"
+                android:textSize="21px" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/r_next"
+            android:layout_width="579px"
+            android:layout_height="83px"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="616px"
+            android:text="下一步" />
+
+    </RelativeLayout>
+</LinearLayout>
