@@ -10,6 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 public class App extends Application {
     public static AppCompatActivity context;
 
+    //我现在修改了App
     @Override
     public void onCreate() {
         super.onCreate();

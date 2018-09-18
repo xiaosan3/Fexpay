@@ -33,7 +33,7 @@ dependencies {
     compile 'com.android.support:appcompat-v7:26.0.0-alpha1'
     testCompile 'junit:junit:4.12'
 
-    //状态栏
+    //状态栏是这样的
     compile 'com.gyf.barlibrary:barlibrary:2.3.0'
     //屏幕适配
     compile 'com.zhy:autolayout:1.4.5'
